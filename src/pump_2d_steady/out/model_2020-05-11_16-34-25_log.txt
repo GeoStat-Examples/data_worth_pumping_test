@@ -1,0 +1,92 @@
+
+          ###################################################
+          ##                                               ##
+          ##               OpenGeoSys-Project              ##
+          ##                                               ##
+          ##  Helmholtz Center for Environmental Research  ##
+          ##    UFZ Leipzig - Environmental Informatics    ##
+          ##                  TU Dresden                   ##
+          ##              University of Kiel               ##
+          ##            University of Edinburgh            ##
+          ##         University of Tuebingen (ZAG)         ##
+          ##       Federal Institute for Geosciences       ##
+          ##          and Natural Resources (BGR)          ##
+          ##  German Research Centre for Geosciences (GFZ) ##
+          ##                                               ##
+          ##    Version 5.7(WH/WW/LB)  Date 07.07.2015     ##
+          ##                                               ##
+          ###################################################
+
+          File name (without extension): model
+            
+---------------------------------------------
+Data input:
+GEOLIB::readGLIFile open stream from file model.gli ... done
+read points from stream ...  ok, 33 points read
+read polylines from stream ...  ok, 1 polylines read
+tag #SURFACE not found or input stream error in GEOObjects
+PCSRead ... done, read 1 processes
+BCRead ... done, read 1 boundary conditions
+STRead ... done, read 1 source terms
+WARNING: ICRead: No initial conditions !
+OUTRead
+TIMRead
+MMPRead ... done, read 1 medium properties
+NUMRead
+MSHRead:  ASCII file
+Executing ConstructGrid() ...  done.
+DOMRead: no DDC file
+ SetDistributedELEProperties: PERMEABILITY
+---------------------------------------------
+Create PCS processes
+.............................................
+Create: GROUNDWATER_FLOW
+
+->Create MMP
+->Create NUM
+->Create EQS
+->Create TIM
+->Create BC
+	[BC] set BC took 0.006238
+	[BC] set transient BC took 1e-06
+->Create ST
+->Config ELE values
+->Config NOD values
+->Assign IC
+->  Gass flow is formulated as mass balance.
+RFR: no restart data
+Checking output data 
+
+
+***Start time steps
+
+
+#############################################################
+Time step: 1|  Time: 1.79769e+308|  Time step size: 1.79769e+308
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 53/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 101.504
+->Calculate velocity
+
+This step is accepted.
+
+#############################################################
+
+----------------------------------------------------
+
+For process: GROUNDWATER_FLOW
+Accepted time steps:                1
+Rejected time steps:                0
+
+----------------------------------------------------
+GetRFProcessProcessingAndActivation - to be removed
+
+^O^: Your simulation is terminated normally ^O^ 
+Simulation time: 0s

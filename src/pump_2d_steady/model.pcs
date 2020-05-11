@@ -1,0 +1,10 @@
+|------------------ Written with ogs5py ------------------|
+#PROCESS
+  $PCS_TYPE
+   GROUNDWATER_FLOW
+  $NUM_TYPE
+   NEW
+  $TIM_TYPE
+   STEADY
+#STOP
+|-- Written with ogs5py (1.1.1) on: 2020-05-11_16-34-22 --|
