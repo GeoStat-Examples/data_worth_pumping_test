@@ -10,6 +10,7 @@ This project aims to determine the Bayesian data worth of pumping test data usin
 
 The project is organized as follows
 - `data/` - here you can find the data used in this project
+- `priors/` - priors for the Bayesian analysis
 - `src/` - here you can find the Python scripts of the project
 - `results/` - here your can find the results and plots 
 - `README.md` - description of the project
