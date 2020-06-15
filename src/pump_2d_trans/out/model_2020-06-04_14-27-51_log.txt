@@ -1,0 +1,1052 @@
+
+          ###################################################
+          ##                                               ##
+          ##               OpenGeoSys-Project              ##
+          ##                                               ##
+          ##  Helmholtz Center for Environmental Research  ##
+          ##    UFZ Leipzig - Environmental Informatics    ##
+          ##                  TU Dresden                   ##
+          ##              University of Kiel               ##
+          ##            University of Edinburgh            ##
+          ##         University of Tuebingen (ZAG)         ##
+          ##       Federal Institute for Geosciences       ##
+          ##          and Natural Resources (BGR)          ##
+          ##  German Research Centre for Geosciences (GFZ) ##
+          ##                                               ##
+          ##    Version 5.7(WH/WW/LB)  Date 07.07.2015     ##
+          ##                                               ##
+          ###################################################
+
+          File name (without extension): model
+            
+---------------------------------------------
+Data input:
+GEOLIB::readGLIFile open stream from file model.gli ... done
+read points from stream ...  ok, 34 points read
+read polylines from stream ...  ok, 1 polylines read
+tag #SURFACE not found or input stream error in GEOObjects
+PCSRead ... done, read 1 processes
+BCRead ... done, read 1 boundary conditions
+STRead ... done, read 1 source terms
+ICRead
+OUTRead
+TIMRead
+MMPRead ... done, read 1 medium properties
+NUMRead
+MSHRead:  ASCII file
+Executing ConstructGrid() ...  done.
+DOMRead: no DDC file
+---------------------------------------------
+Create PCS processes
+.............................................
+Create: GROUNDWATER_FLOW
+
+->Create MMP
+->Create NUM
+->Create EQS
+->Create TIM
+->Create BC
+	[BC] set BC took 0.006394
+	[BC] set transient BC took 2e-06
+->Create ST
+->Config ELE values
+->Config NOD values
+->Assign IC
+->  Gass flow is formulated as mass balance.
+RFR: no restart data
+Checking output data 
+
+
+***Start time steps
+Data output: Breakthrough curves - owell
+
+
+#############################################################
+Time step: 1|  Time: 0.0305995|  Time step size: 0.0305995
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 17/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 85.0078
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 2|  Time: 0.244796|  Time step size: 0.214196
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 13/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 17.7639
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 3|  Time: 0.826186|  Time step size: 0.58139
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 14/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 10.4523
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 4|  Time: 1.95837|  Time step size: 1.13218
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 15/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 7.31694
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 5|  Time: 3.82494|  Time step size: 1.86657
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 16/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 5.61057
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 6|  Time: 6.60949|  Time step size: 2.78455
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 16/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 4.54547
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 7|  Time: 10.4956|  Time step size: 3.88614
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 17/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 3.81891
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 8|  Time: 15.6669|  Time step size: 5.17131
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 17/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 3.29207
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 9|  Time: 22.307|  Time step size: 6.64009
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 17/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 2.89271
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 10|  Time: 30.5995|  Time step size: 8.29246
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 18/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 2.57963
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 11|  Time: 40.7279|  Time step size: 10.1284
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 16/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 2.32762
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 12|  Time: 52.8759|  Time step size: 12.148
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 17/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 2.12042
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 13|  Time: 67.2271|  Time step size: 14.3512
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 18/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.94708
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 14|  Time: 83.965|  Time step size: 16.7379
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 18/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.79991
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 15|  Time: 103.273|  Time step size: 19.3083
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.67341
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 16|  Time: 125.336|  Time step size: 22.0622
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.56352
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 17|  Time: 150.335|  Time step size: 24.9998
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 18/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.46717
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 18|  Time: 178.456|  Time step size: 28.1209
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 18/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.38199
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 19|  Time: 209.882|  Time step size: 31.4257
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 18/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.30616
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 20|  Time: 244.796|  Time step size: 34.914
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 18/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.23822
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 21|  Time: 283.382|  Time step size: 38.586
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.177
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 22|  Time: 325.823|  Time step size: 42.4415
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.12154
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 23|  Time: 372.304|  Time step size: 46.4806
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.07107
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 24|  Time: 423.007|  Time step size: 50.7034
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 1.02495
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 25|  Time: 478.117|  Time step size: 55.1097
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.982632
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 26|  Time: 537.817|  Time step size: 59.6996
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.943672
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 27|  Time: 602.29|  Time step size: 64.4731
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.907683
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 28|  Time: 671.72|  Time step size: 69.4303
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.874338
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 29|  Time: 746.291|  Time step size: 74.571
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.843355
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 30|  Time: 826.186|  Time step size: 79.8953
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.814493
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 31|  Time: 911.59|  Time step size: 85.4032
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.787541
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 32|  Time: 1002.68|  Time step size: 91.0947
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.762315
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 33|  Time: 1099.65|  Time step size: 96.9698
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.738655
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 34|  Time: 1202.68|  Time step size: 103.029
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.716419
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 35|  Time: 1311.95|  Time step size: 109.271
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.695483
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 36|  Time: 1427.65|  Time step size: 115.697
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.675736
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 37|  Time: 1549.96|  Time step size: 122.306
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.657078
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 38|  Time: 1679.06|  Time step size: 129.099
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.639424
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 39|  Time: 1815.13|  Time step size: 136.076
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.622693
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 40|  Time: 1958.37|  Time step size: 143.236
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.606815
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 41|  Time: 2108.95|  Time step size: 150.58
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.591727
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 42|  Time: 2267.06|  Time step size: 158.108
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.577371
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 43|  Time: 2432.87|  Time step size: 165.819
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.563695
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 44|  Time: 2606.59|  Time step size: 173.713
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.550652
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 45|  Time: 2788.38|  Time step size: 181.792
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.538199
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 46|  Time: 2978.43|  Time step size: 190.053
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.526296
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 47|  Time: 3176.93|  Time step size: 198.499
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.514909
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 48|  Time: 3384.06|  Time step size: 207.128
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 20/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.504004
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+
+#############################################################
+Time step: 49|  Time: 3600|  Time step size: 215.941
+
+      ================================================
+    ->Process 0: GROUNDWATER_FLOW
+      ================================================
+    PCS non-linear iteration: 0/1
+      Assembling equation system...
+      Calling linear solver...
+	  SpBICGSTAB iteration: 19/1000 
+      -->LINEAR solution complete. 
+         PCS error DOF[0]: 0.493551
+->Calculate velocity
+
+This step is accepted.
+Data output: Breakthrough curves - owell
+
+#############################################################
+
+----------------------------------------------------
+
+For process: GROUNDWATER_FLOW
+No time control for this process.
+
+----------------------------------------------------
+GetRFProcessProcessingAndActivation - to be removed
+
+^O^: Your simulation is terminated normally ^O^ 
+Simulation time: 2s
